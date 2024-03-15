@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container"><center>
+    <img src= "sha1.png"></center>
+        <form class="login-form">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username" required >
+            <input type="password" placeholder="Password">
+            <button type="submit"><a style="text-decoration:none;color:#fff; "href="shabank.html">Login</button>
+            <br>
+            <p>Create A New  Account<a href="Signup.html">Sign Up</a></p>
+        </form>
+    </div>
+</body>
+</html>
+
+<style>
+img{
+width:100px;
+border-radius:200px;
+}
+p{
+font-size:10px;
+}
+a{
+font-weight :bold;
+ font-size:15px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-color:silver;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top:-50px; 
+    width:250px;
+    heiht:300px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(655, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border:1px solid black; 
+    ackground-image: url(logo.jpg);
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+</style>

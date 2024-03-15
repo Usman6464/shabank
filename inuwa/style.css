@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+}
+.container{
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.container .lab1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container1 input{
+    margin-top: 24px;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    border:1px solid #333;
+    font-weight:bold;
+    caret-color: red;
+}
+input[type="submit"]{
+    background-color: #4070f4;
+    color: #fff;
+    font-size: 20px;
+}
